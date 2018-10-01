@@ -1,0 +1,73 @@
+{   
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "matrixdynamic",
+        "name": "People",
+        "title": "Persons that live in this household",
+        "columns": [
+         {
+          "name": "FIRST_NAME",
+          "title": "First Name",
+          "cellType": "text"
+         },
+         {
+          "name": "LAST_NAME",
+          "title": "Surname",
+          "cellType": "text"
+         },
+         {
+          "name": "SCOPE",
+          "title": "Resident",
+          "cellType": "dropdown",
+          "choices": [
+           {
+            "value": "1",
+            "text": "Permanent Resident"
+           },
+           {
+            "value": "2",
+            "text": "Short-term overseas visitor"
+           },
+           {
+            "value": "3",
+            "text": " non Australian diplomat or non Australian member of household/staff"
+           },
+           {
+            "value": "4",
+            "text": "Non Australian defence force member or dependant"
+           }
+          ]
+         },
+         {
+          "name": "AGE",
+          "title": "Age of Person",
+          "cellType": "text"
+         },
+         {
+          "name": "ARA",
+          "cellType": "checkbox",
+          "choices": [
+           {
+            "value": "ARA",
+            "text": "Principle Respondant"
+           }
+          ]
+         }
+        ],
+        "choices": [
+         1,
+         2,
+         3,
+         4,
+         5
+        ],
+        "rowCount": 1
+       }
+      ]
+     }
+    ]
+   
+}
